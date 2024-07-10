@@ -2,10 +2,10 @@ package com.softserve.oop;
 
 public class B extends A {
 
-    public int j;
+    public int j = 9;
 
     public B() {
-        j = 789;
+        //j = 789;
         System.out.println("\t\tpublic B() done");
     }
 
@@ -15,9 +15,18 @@ public class B extends A {
         System.out.println("\t\tpublic B(int j) done");
     }
 
-    public void m1() {
-        System.out.print("m1() from B.\t\t");
-        super.m1();
+    public double getJ() {
+        return j;
     }
 
+    @Override
+    public void m1() {
+        System.out.println("m1() from B, j = " + j);
+        //super.m1();
+    }
+
+    @Override
+    public void m4() {
+        System.out.println("m4() from B, j =" + j);
+    }
 }
