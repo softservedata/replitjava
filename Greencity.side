@@ -305,6 +305,118 @@
       "target": "${myVariable}",
       "targets": [],
       "value": ""
+    }, {
+      "id": "db4a3391-465d-4af9-a14a-e380e3d1cb2d",
+      "comment": "",
+      "command": "store",
+      "target": "hahaha",
+      "targets": [],
+      "value": "myVal"
+    }, {
+      "id": "7b6537a6-186b-4639-a4c4-d2bdaed6d21f",
+      "comment": "",
+      "command": "echo",
+      "target": "${myVal}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5018da49-90b2-4e9b-9375-e44df630aa37",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1;",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "a99703c9-f590-44eb-91e9-071f418f833a",
+      "comment": "",
+      "command": "echo",
+      "target": "${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "246eb2ad-cf21-4159-8f4c-1db8866ec547",
+      "comment": "",
+      "command": "if",
+      "target": "${check}  == 1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50cbcf72-e9b3-4942-bd7c-a8e617d1035a",
+      "comment": "",
+      "command": "echo",
+      "target": "OK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e47c253-3459-4f64-a594-7b3db3aa8ebc",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e1fc225-72e2-4e5a-a557-11e5fa10ddce",
+      "comment": "",
+      "command": "echo",
+      "target": "Error",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31a60947-c0eb-49e7-bd76-c566c3515aed",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d4f58fd-2a51-4d55-8e37-e67896421d72",
+      "comment": "",
+      "command": "times",
+      "target": "10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0f3c812-3a81-40af-b3a3-096759878925",
+      "comment": "",
+      "command": "echo",
+      "target": "on time",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14fb822d-2e1c-4d77-8c03-ffef1c61c88b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f52d1489-e5ae-4357-8eaa-1caf7d366381",
+      "comment": "",
+      "command": "while",
+      "target": "${check} < 5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da916331-7b85-41ab-8b32-23aaf126f013",
+      "comment": "",
+      "command": "echo",
+      "target": "${check}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c361c30c-8c11-4ea8-9dd9-d522111b62a2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${check} + 1",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "1aff860a-16fb-43fc-bc05-347732f92b4a",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
